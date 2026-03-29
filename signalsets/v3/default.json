@@ -1,9 +1,9 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2011, "from": 2014 },
   "signals": [
     {"id": "X1_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "filter": { "to": 2014 }, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "filter": { "to": 2014 }, "dbgfilter": { "to": 2011, "from": 2014 },
   "signals": [
     {"id": "X1_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"}
   ]},
