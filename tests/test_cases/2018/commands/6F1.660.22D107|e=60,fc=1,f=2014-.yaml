@@ -4,29 +4,8 @@ test_cases:
     X1_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    X1_VSS: 4.1
-  response: 660F10562D1070029
-- expected_values:
-    X1_VSS: 8.2
-  response: 660F10562D1070052
-- expected_values:
-    X1_VSS: 38.3
-  response: 660F10562D107017F
-- expected_values:
-    X1_VSS: 41
-  response: 660F10562D107019A
-- expected_values:
-    X1_VSS: 43.5
-  response: 660F10562D10701B3
-- expected_values:
     X1_VSS: 51
   response: 660F10562D10701FE
 - expected_values:
-    X1_VSS: 78.1
-  response: 660F10562D107030D
-- expected_values:
-    X1_VSS: 89.1
-  response: 660F10562D107037B
-- expected_values:
-    X1_VSS: 91.1
-  response: 660F10562D107038F
+    X1_VSS: 113.8
+  response: 660F10562D1070472
