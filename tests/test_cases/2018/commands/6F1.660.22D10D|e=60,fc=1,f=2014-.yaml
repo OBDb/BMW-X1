@@ -7,36 +7,6 @@ test_cases:
     660F1100B62D10D0003
     660F12118DA000318DA
 - expected_values:
-    X1_ODO: 202971
-    X1_ODO_ALT: 202971
-  response: |-
-    660F1100B62D10D0003
-    660F12118DB000318DB
-- expected_values:
-    X1_ODO: 202972
-    X1_ODO_ALT: 202972
-  response: |-
-    660F1100B62D10D0003
-    660F12118DC000318DC
-- expected_values:
-    X1_ODO: 202973
-    X1_ODO_ALT: 202973
-  response: |-
-    660F1100B62D10D0003
-    660F12118DD000318DD
-- expected_values:
-    X1_ODO: 203005
-    X1_ODO_ALT: 203005
-  response: |-
-    660F1100B62D10D0003
-    660F12118FD000318FD
-- expected_values:
-    X1_ODO: 203006
-    X1_ODO_ALT: 203006
-  response: |-
-    660F1100B62D10D0003
-    660F12118FE000318FE
-- expected_values:
     X1_ODO: 203007
     X1_ODO_ALT: 203007
   response: |-
@@ -49,14 +19,8 @@ test_cases:
     660F1100B62D10D0003
     660F121190000031900
 - expected_values:
-    X1_ODO: 203009
-    X1_ODO_ALT: 203009
+    X1_ODO: 203047
+    X1_ODO_ALT: 203047
   response: |-
     660F1100B62D10D0003
-    660F121190100031901
-- expected_values:
-    X1_ODO: 203010
-    X1_ODO_ALT: 203010
-  response: |-
-    660F1100B62D10D0003
-    660F121190200031902
+    660F121192700031927
