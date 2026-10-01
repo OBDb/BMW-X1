@@ -1,0 +1,23 @@
+command_id: 6F1.607.22DDBC|e=07,fc=1
+test_cases:
+- expected_values:
+    X1_HVBAT_SOC: 4.3
+    X1_HVBAT_SOC_MAX: 92
+    X1_HVBAT_SOC_MIN: 17
+  response: |-
+    607F1100962DDBC002B
+    607F121039800AAFFFF
+- expected_values:
+    X1_HVBAT_SOC: 88.6
+    X1_HVBAT_SOC_MAX: 89
+    X1_HVBAT_SOC_MIN: 17
+  response: |-
+    607F1100962DDBC0376
+    607F121037A00AAFFFF
+- expected_values:
+    X1_HVBAT_SOC: 89.1
+    X1_HVBAT_SOC_MAX: 89
+    X1_HVBAT_SOC_MIN: 17
+  response: |-
+    607F1100962DDBC037B
+    607F121037A00AAFFFF

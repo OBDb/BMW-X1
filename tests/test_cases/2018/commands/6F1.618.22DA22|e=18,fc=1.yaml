@@ -1,0 +1,14 @@
+command_id: 6F1.618.22DA22|e=18,fc=1
+test_cases:
+- expected_values:
+    X1_TQ_CNVRT_LOCKUP: 0
+  response: 618F10462DA2200
+- expected_values:
+    X1_TQ_CNVRT_LOCKUP: 1
+  response: 618F10462DA2201
+- expected_values:
+    X1_TQ_CNVRT_LOCKUP: 3
+  response: 618F10462DA2203
+- expected_values:
+    X1_TQ_CNVRT_LOCKUP: 9
+  response: 618F10462DA2209
