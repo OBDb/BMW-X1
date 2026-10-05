@@ -1,4 +1,4 @@
-command_id: 6F1.612.22586F|e=12,fc=1
+command_id: 6F1.612.22586F|e=12,fc=1,f=-2022
 test_cases:
 - expected_values:
     X1_EOP: 0.971
