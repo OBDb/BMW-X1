@@ -1,4 +1,4 @@
-command_id: 6F1.607.22DF71|e=07,fc=1
+command_id: 6F1.607.22DF71|e=07,fc=1,f=-2022
 test_cases:
 - expected_values:
     X1_HVBAT_C_CNT: 80
