@@ -1,0 +1,32 @@
+command_id: 6F1.607.22E54D|e=07,fc=1
+test_cases:
+- expected_values:
+    X1_BAT_V: 313.2
+  response: 607F10562E54D7A58
+- expected_values:
+    X1_BAT_V: 313.42
+  response: 607F10562E54D7A6E
+- expected_values:
+    X1_BAT_V: 313.62
+  response: 607F10562E54D7A82
+- expected_values:
+    X1_BAT_V: 314.2
+  response: 607F10562E54D7ABC
+- expected_values:
+    X1_BAT_V: 314.28
+  response: 607F10562E54D7AC4
+- expected_values:
+    X1_BAT_V: 314.4
+  response: 607F10562E54D7AD0
+- expected_values:
+    X1_BAT_V: 314.52
+  response: 607F10562E54D7ADC
+- expected_values:
+    X1_BAT_V: 314.6
+  response: 607F10562E54D7AE4
+- expected_values:
+    X1_BAT_V: 314.62
+  response: 607F10562E54D7AE6
+- expected_values:
+    X1_BAT_V: 314.64
+  response: 607F10562E54D7AE8
