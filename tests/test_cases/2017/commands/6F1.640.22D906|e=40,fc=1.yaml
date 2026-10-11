@@ -1,0 +1,22 @@
+command_id: 6F1.640.22D906|e=40,fc=1
+test_cases:
+- expected_values:
+    X1_AC_COMP_PWM: 0
+    X1_AC_COMP_STAT: 0
+  response: 640F10662D906000000
+- expected_values:
+    X1_AC_COMP_PWM: 31
+    X1_AC_COMP_STAT: 1
+  response: 640F10662D90600011F
+- expected_values:
+    X1_AC_COMP_PWM: 32
+    X1_AC_COMP_STAT: 1
+  response: 640F10662D906000120
+- expected_values:
+    X1_AC_COMP_PWM: 33
+    X1_AC_COMP_STAT: 1
+  response: 640F10662D906000121
+- expected_values:
+    X1_AC_COMP_PWM: 34
+    X1_AC_COMP_STAT: 1
+  response: 640F10662D906000122
