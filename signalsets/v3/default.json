@@ -47,11 +47,11 @@
     {"id": "X1_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "nullmax": 6.5535, "unit": "volts"       }, "name": "Cell OCV, average"},
     {"id": "X1_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "nullmax": 6.5535, "unit": "scalar"      }, "name": "Aging factor"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E54D"}, "freq": 5,
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E54D"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E561"}, "freq": 1,
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E561"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_HVBAT_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327, "min": -327, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
@@ -424,7 +424,7 @@
   "signals": [
     {"id": "X1_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC98"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X1_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                           "name": "Front left tire pressure",                                      "suggestedMetric": "frontLeftTirePressure"},
@@ -433,7 +433,7 @@
     {"id": "X1_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, front left"},
     {"id": "X1_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC99"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X1_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                            "name": "Front right tire pressure",                                     "suggestedMetric": "frontRightTirePressure"},
@@ -442,7 +442,7 @@
     {"id": "X1_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, front right"},
     {"id": "X1_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                            "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC9A"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X1_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                          "name": "Rear left tire pressure",                                       "suggestedMetric": "rearLeftTirePressure"},
@@ -451,7 +451,7 @@
     {"id": "X1_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear left"},
     {"id": "X1_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                          "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC9B"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "X1_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                           "name": "Rear right tire pressure",                                      "suggestedMetric": "rearRightTirePressure"},
@@ -460,7 +460,7 @@
     {"id": "X1_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear right"},
     {"id": "X1_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "dbg": true, "cmd": {"22": "DB99"}, "freq": 1,
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "X1_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
