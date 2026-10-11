@@ -154,7 +154,7 @@
   "signals": [
     {"id": "X1_MAP", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Intake manifold pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4A2E"}, "freq": 3600,
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2E"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "X1_REV_LIMIT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Rev limiter"}
   ]},

@@ -4,5 +4,8 @@ test_cases:
     X1_LOAD: 16.5
   response: 612F10462581316
 - expected_values:
+    X1_LOAD: 59.25
+  response: 612F1046258134F
+- expected_values:
     X1_LOAD: 60.75
   response: 612F10462581351
