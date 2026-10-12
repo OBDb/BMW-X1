@@ -1,11 +1,12 @@
-command_id: 6F1.629.22DC9B|e=29,fc=1
+command_id: 6F1.629.22DC9B|e=29,fc=1,f=2023-
 test_cases:
 - expected_values:
-    X1_TPMS_BAT_RR: 25600
+    X1_TPMS_BAT_RR: 100
     X1_TPMS_POS_RR: 209
     X1_TPMS_RX_RR: 98
-    X1_TP_SET_RR: -15.351
-    X1_TT_RR: 65
+    X1_TP_RR: 2.35
+    X1_TP_SET_RR: 2.5
+    X1_TT_RR: 25
   response: |-
     629F1101B62DC9B2001
     629F1217923D1092E41
@@ -13,11 +14,12 @@ test_cases:
     629F123200064000000
     629F12400020223
 - expected_values:
-    X1_TPMS_BAT_RR: 25600
+    X1_TPMS_BAT_RR: 100
     X1_TPMS_POS_RR: 209
     X1_TPMS_RX_RR: 98
-    X1_TP_SET_RR: -15.351
-    X1_TT_RR: 66
+    X1_TP_RR: 2.375
+    X1_TP_SET_RR: 2.5
+    X1_TT_RR: 26
   response: |-
     629F1101B62DC9B2001
     629F1217923D1094742
@@ -25,12 +27,12 @@ test_cases:
     629F123110064000000
     629F12400020203
 - expected_values:
-    X1_TPMS_BAT_RR: 25600
+    X1_TPMS_BAT_RR: 100
     X1_TPMS_POS_RR: 209
     X1_TPMS_RX_RR: 98
-    X1_TP_RR: -28.151
-    X1_TP_SET_RR: -8.951
-    X1_TT_RR: 69
+    X1_TP_RR: 2.45
+    X1_TP_SET_RR: 2.525
+    X1_TT_RR: 29
   response: |-
     629F1101B62DC9B2001
     629F1217923D1099245
