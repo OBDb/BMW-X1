@@ -1,0 +1,11 @@
+command_id: 6F1.678.22D96B|e=78,fc=1
+test_cases:
+- expected_values:
+    X1_IHX_AAT: 6.5
+  response: 678F10562D96B005D
+- expected_values:
+    X1_IHX_AAT: 8
+  response: 678F10562D96B0060
+- expected_values:
+    X1_IHX_AAT: 8.5
+  response: 678F10562D96B0061

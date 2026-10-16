@@ -1,0 +1,37 @@
+command_id: 6F1.660.22D129|e=60,fc=1
+test_cases:
+- expected_values:
+    X1_BC_AVG_CONS: 10.4
+    X1_BC_AVG_SPD: 32.4
+    X1_BC_RANGE: 21
+  response: |-
+    660F1100B62D1290068
+    660F1210CA8019A00D2
+- expected_values:
+    X1_BC_AVG_CONS: 10.4
+    X1_BC_AVG_SPD: 32.4
+    X1_BC_RANGE: 20
+  response: |-
+    660F1100B62D1290068
+    660F1210CA8FFFD00C8
+- expected_values:
+    X1_BC_AVG_CONS: 10.4
+    X1_BC_AVG_SPD: 32.4
+    X1_BC_RANGE: 21
+  response: |-
+    660F1100B62D1290068
+    660F1210CA8FFFD00D2
+- expected_values:
+    X1_BC_AVG_CONS: 10.4
+    X1_BC_AVG_SPD: 32.4
+    X1_BC_RANGE: 22
+  response: |-
+    660F1100B62D1290068
+    660F1210CA8FFFD00DC
+- expected_values:
+    X1_BC_AVG_CONS: 10.4
+    X1_BC_AVG_SPD: 32.4
+    X1_BC_RANGE: 23
+  response: |-
+    660F1100B62D1290068
+    660F1210CA8FFFD00E6
