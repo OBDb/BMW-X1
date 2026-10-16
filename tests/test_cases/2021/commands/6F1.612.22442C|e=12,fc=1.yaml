@@ -1,0 +1,8 @@
+command_id: 6F1.612.22442C|e=12,fc=1
+test_cases:
+- expected_values:
+    X1_OIL_LEVEL: 65
+  response: 612F10462442C41
+- expected_values:
+    X1_OIL_LEVEL: 66
+  response: 612F10462442C42

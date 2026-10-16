@@ -1,0 +1,8 @@
+command_id: 6F1.612.224A2D|e=12,fc=1
+test_cases:
+- expected_values:
+    X1_MAP: 101.65625
+  response: 612F105624A2D32D4
+- expected_values:
+    X1_MAP: 101.82031
+  response: 612F105624A2D32E9
