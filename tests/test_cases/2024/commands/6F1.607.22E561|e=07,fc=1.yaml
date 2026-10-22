@@ -21,10 +21,10 @@ test_cases:
     607F1100762E5610000
     607F1210FFC
 - expected_values:
-    X1_HVBAT_CURRENT: 266.15
+    X1_HVBAT_CURRENT: 276.42
   response: |-
     607F1100762E561FFFF
-    607F1219809
+    607F1219406
 - expected_values:
     X1_HVBAT_CURRENT: 40.79
   response: |-
