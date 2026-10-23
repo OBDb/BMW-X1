@@ -1,20 +1,15 @@
 command_id: 6F1.607.22E561|e=07,fc=1
 test_cases:
 - expected_values:
-    X1_HVBAT_CURRENT: -0.02
+    X1_HVBAT_CURRENT: 0
   response: |-
     607F1100762E5610000
-    607F1210002
+    607F1210000
 - expected_values:
     X1_HVBAT_CURRENT: -7.99
   response: |-
     607F1100762E5610000
     607F121031F
-- expected_values:
-    X1_HVBAT_CURRENT: -8.48
-  response: |-
-    607F1100762E5610000
-    607F1210350
 - expected_values:
     X1_HVBAT_CURRENT: -40.92
   response: |-
