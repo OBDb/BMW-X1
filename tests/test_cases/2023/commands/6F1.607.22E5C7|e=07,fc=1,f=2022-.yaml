@@ -1,32 +1,38 @@
 command_id: 6F1.607.22E5C7|e=07,fc=1,f=2022-
 test_cases:
 - expected_values:
-    X1_HVBAT_SOH_V2: 100
+    X1_HVBAT_E_CAP: 12.75
+    X1_HVBAT_E_STORED: 3.18
   response: |-
     607F1100762E5C714C6
     607F1211883
 - expected_values:
-    X1_HVBAT_SOH_V2: 100
+    X1_HVBAT_E_CAP: 12.9
+    X1_HVBAT_E_STORED: 4.28
   response: |-
     607F1100762E5C71534
     607F1211892
 - expected_values:
-    X1_HVBAT_SOH_V2: 100
+    X1_HVBAT_E_CAP: 12.9
+    X1_HVBAT_E_STORED: 4.3
   response: |-
     607F1100762E5C71536
     607F1211892
 - expected_values:
-    X1_HVBAT_SOH_V2: 100
+    X1_HVBAT_E_CAP: 12.9
+    X1_HVBAT_E_STORED: 4.31
   response: |-
     607F1100762E5C71537
     607F1211892
 - expected_values:
-    X1_HVBAT_SOH_V2: 100
+    X1_HVBAT_E_CAP: 13.01
+    X1_HVBAT_E_STORED: 5.44
   response: |-
     607F1100762E5C715A8
     607F121189D
 - expected_values:
-    X1_HVBAT_SOH_V2: 100
+    X1_HVBAT_E_CAP: 13.01
+    X1_HVBAT_E_STORED: 5.59
   response: |-
     607F1100762E5C715B7
     607F121189D
