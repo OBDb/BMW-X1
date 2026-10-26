@@ -53,11 +53,12 @@
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E561"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "X1_HVBAT_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327, "min": -327, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current", "suggestedMetric": "tractionBatteryCurrent"}
+    {"id": "X1_HVBAT_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 1000, "min": -1000, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5C7"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
-    {"id": "X1_HVBAT_SOH_V2", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "X1_HVBAT_E_STORED", "path": "Battery", "fmt": {           "len": 16, "max": 605.35, "div": 100, "add": -50, "unit": "kilowattHours" }, "name": "HV battery energy stored"},
+    {"id": "X1_HVBAT_E_CAP",    "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 605.35, "div": 100, "add": -50, "unit": "kilowattHours" }, "name": "HV battery energy capacity", "suggestedMetric": "tractionBatteryCapacity"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5CE"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
