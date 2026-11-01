@@ -1,6 +1,11 @@
 command_id: 6F1.640.221700|e=40,fc=1,f=2016-
 test_cases:
 - expected_values:
+    X1_ODO_2: 64541
+  response: |-
+    640F110076217000000
+    640F121FC1DFFFFFFFF
+- expected_values:
     X1_ODO_2: 97496
   response: |-
     640F110076217000001

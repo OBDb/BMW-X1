@@ -1,0 +1,8 @@
+command_id: 6F1.612.22580F|e=12,fc=1
+test_cases:
+- expected_values:
+    X1_IAT_DME: 19.5
+  response: 612F10462580F5A
+- expected_values:
+    X1_IAT_DME: 20.25
+  response: 612F10462580F5B

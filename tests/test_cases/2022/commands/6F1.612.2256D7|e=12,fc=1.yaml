@@ -1,0 +1,8 @@
+command_id: 6F1.612.2256D7|e=12,fc=1
+test_cases:
+- expected_values:
+    X1_FRP: 14.26
+  response: 612F1056256D702C9
+- expected_values:
+    X1_FRP: 14.38
+  response: 612F1056256D702CF
