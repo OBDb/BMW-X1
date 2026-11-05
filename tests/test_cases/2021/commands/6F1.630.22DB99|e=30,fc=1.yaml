@@ -4,5 +4,17 @@ test_cases:
     X1_STEER_TQ: 0.09375
   response: 630F10662DB99000C00
 - expected_values:
+    X1_STEER_TQ: 0.17969
+  response: 630F10662DB99001700
+- expected_values:
     X1_STEER_TQ: 1.29688
   response: 630F10662DB9900A600
+- expected_values:
+    X1_STEER_TQ: 1.32031
+  response: 630F10662DB9900A900
+- expected_values:
+    X1_STEER_TQ: 2.36719
+  response: 630F10662DB99012F00
+- expected_values:
+    X1_STEER_TQ: 2.86719
+  response: 630F10662DB99016F00

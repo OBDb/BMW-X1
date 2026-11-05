@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     X1_IHX_AAT: 8.5
   response: 678F10562D96B0061
+- expected_values:
+    X1_IHX_AAT: 12.5
+  response: 678F10562D96B0069
