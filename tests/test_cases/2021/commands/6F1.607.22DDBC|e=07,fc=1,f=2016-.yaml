@@ -8,6 +8,13 @@ test_cases:
     607F1100962DDBC002B
     607F121039800AAFFFF
 - expected_values:
+    X1_HVBAT_SOC: 38.3
+    X1_HVBAT_SOC_MAX: 87
+    X1_HVBAT_SOC_MIN: 17
+  response: |-
+    607F1100962DDBC017F
+    607F121036600AAFFFF
+- expected_values:
     X1_HVBAT_SOC: 39.1
     X1_HVBAT_SOC_MAX: 87.5
     X1_HVBAT_SOC_MIN: 17
