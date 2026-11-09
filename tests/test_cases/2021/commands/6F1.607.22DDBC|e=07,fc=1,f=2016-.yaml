@@ -1,11 +1,11 @@
 command_id: 6F1.607.22DDBC|e=07,fc=1,f=2016-
 test_cases:
 - expected_values:
-    X1_HVBAT_SOC: 3.9
+    X1_HVBAT_SOC: 3.5
     X1_HVBAT_SOC_MAX: 87
     X1_HVBAT_SOC_MIN: 17
   response: |-
-    607F1100962DDBC0027
+    607F1100962DDBC0023
     607F121036600AAFFFF
 - expected_values:
     X1_HVBAT_SOC: 4.3
