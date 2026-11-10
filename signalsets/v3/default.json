@@ -117,7 +117,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2023 },
   "signals": [
-    {"id": "X1_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
+    {"id": "X1_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2015 },
   "signals": [
@@ -349,13 +349,20 @@
   "signals": [
     {"id": "X1_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2026 },
   "signals": [
-    {"id": "X1_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "0": { "description": "Park",    "value": "PARK" },
-          "1": { "description": "Reverse", "value": "REVERSE" },
-          "2": { "description": "Neutral", "value": "NEUTRAL" },
-          "3": { "description": "Drive",   "value": "DRIVE" }
+    {"id": "X1_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "0":  { "description": "Park",    "value": "PARK" },
+          "1":  { "description": "Reverse", "value": "REVERSE" },
+          "2":  { "description": "Neutral", "value": "NEUTRAL" },
+          "3":  { "description": "Drive",   "value": "DRIVE" },
+          "4":  { "description": "Drive",   "value": "DRIVE" },
+          "5":  { "description": "Drive",   "value": "DRIVE" },
+          "6":  { "description": "Drive",   "value": "DRIVE" },
+          "7":  { "description": "Drive",   "value": "DRIVE" },
+          "8":  { "description": "Drive",   "value": "DRIVE" },
+          "9":  { "description": "Drive",   "value": "DRIVE" },
+          "16": { "description": "Drive",   "value": "DRIVE" }
         }}
     },
     {"id": "X1_GEAR", "path": "Transmission", "name": "Drive mode", "fmt": {"bix": 8, "len": 8, "map": {
