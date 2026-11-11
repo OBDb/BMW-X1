@@ -1,0 +1,12 @@
+command_id: 6F1.660.22D111|e=60,fc=1,f=2016-
+test_cases:
+- expected_values:
+    X1_AUX_PWR: 0
+    X1_RANGE_E_CUR: 0
+    X1_RANGE_E_MAX: 0
+    X1_RANGE_E_USE: 15
+    X1_RANGE_F_CUR: 645
+  response: |-
+    660F1100F62D1110000
+    660F12100001932FFFF
+    660F1223A980000FFFF
