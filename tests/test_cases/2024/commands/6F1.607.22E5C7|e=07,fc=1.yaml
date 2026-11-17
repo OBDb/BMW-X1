@@ -1,0 +1,114 @@
+command_id: 6F1.607.22E5C7|e=07,fc=1
+test_cases:
+- expected_values:
+    X1_HVBAT_E_CAP: 62.9
+    X1_HVBAT_E_STORED: 24.69
+  response: |-
+    607F1037F2278
+    607F1100762E5C71D2D
+    607F1212C1A
+- expected_values:
+    X1_HVBAT_E_CAP: 62.9
+    X1_HVBAT_E_STORED: 25.2
+  response: |-
+    607F1037F2278
+    607F1100762E5C71D60
+    607F1212C1A
+- expected_values:
+    X1_HVBAT_E_CAP: 62.9
+    X1_HVBAT_E_STORED: 30.41
+  response: |-
+    607F1037F2278
+    607F1100762E5C71F69
+    607F1212C1A
+- expected_values:
+    X1_HVBAT_E_CAP: 62.9
+    X1_HVBAT_E_STORED: 32.27
+  response: |-
+    607F1037F2278
+    607F1100762E5C72023
+    607F1212C1A
+- expected_values:
+    X1_HVBAT_E_CAP: 62.79
+    X1_HVBAT_E_STORED: 36.22
+  response: |-
+    607F1037F2278
+    607F1100762E5C721AE
+    607F1212C0F
+- expected_values:
+    X1_HVBAT_E_CAP: 62.79
+    X1_HVBAT_E_STORED: 37.51
+  response: |-
+    607F1037F2278
+    607F1100762E5C7222F
+    607F1212C0F
+- expected_values:
+    X1_HVBAT_E_CAP: 62.52
+    X1_HVBAT_E_STORED: 50.3
+  response: |-
+    607F1037F2278
+    607F1100762E5C7272E
+    607F1212BF4
+- expected_values:
+    X1_HVBAT_E_CAP: 62.53
+    X1_HVBAT_E_STORED: 50.33
+  response: |-
+    607F1037F2278
+    607F1100762E5C72731
+    607F1212BF5
+- expected_values:
+    X1_HVBAT_E_CAP: 13.21
+    X1_HVBAT_E_STORED: 0.34
+  response: |-
+    607F1100762E5C713AA
+    607F12118B1
+- expected_values:
+    X1_HVBAT_E_CAP: 62.9
+    X1_HVBAT_E_STORED: 24.7
+  response: |-
+    607F1100762E5C71D2E
+    607F1212C1A
+- expected_values:
+    X1_HVBAT_E_CAP: 63.13
+    X1_HVBAT_E_STORED: 26.7
+  response: |-
+    607F1100762E5C71DF6
+    607F1212C31
+- expected_values:
+    X1_HVBAT_E_CAP: 62.79
+    X1_HVBAT_E_STORED: 33.62
+  response: |-
+    607F1100762E5C720AA
+    607F1212C0F
+- expected_values:
+    X1_HVBAT_E_CAP: 62.79
+    X1_HVBAT_E_STORED: 34.47
+  response: |-
+    607F1100762E5C720FF
+    607F1212C0F
+- expected_values:
+    X1_HVBAT_E_CAP: 62.79
+    X1_HVBAT_E_STORED: 37.04
+  response: |-
+    607F1100762E5C72200
+    607F1212C0F
+- expected_values:
+    X1_HVBAT_E_CAP: 62.93
+    X1_HVBAT_E_STORED: 60.24
+  response: |-
+    607F1100762E5C72B10
+    607F1212C1D
+- expected_values:
+    X1_HVBAT_E_CAP: 62.96
+    X1_HVBAT_E_STORED: 62.1
+  response: |-
+    607F1100762E5C72BCA
+    607F1212C20
+- expected_values:
+    X1_HVBAT_E_CAP: 62.88
+    X1_HVBAT_E_STORED: 62.23
+  response: |-
+    607F1100762E5C72BD7
+    607F1212C18
+    607F1100762E561FFFF
+    607F121F3AA
