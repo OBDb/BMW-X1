@@ -1,9 +1,9 @@
 command_id: 6F1.618.22DA37|e=18,fc=1,f=-2022
 test_cases:
 - expected_values:
-    X1_TIME_D: 0
-    X1_TIME_M: 167
-    X1_TIME_S: 133
+    X1_TIME_D: 8759243
+    X1_TIME_M: 17739
+    X1_TIME_S: 106400
   response: |-
     618F1100F62DA370085
     618F121A7CB00019FA0
